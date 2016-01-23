@@ -51,6 +51,8 @@ coverage.xml
 
 # Django stuff:
 *.log
+*.sqlite3
+*/migrations/*
 
 # Sphinx documentation
 docs/_build/
@@ -60,5 +62,3 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
-
-*.sqlite3
